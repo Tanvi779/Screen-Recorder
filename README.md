@@ -14,7 +14,7 @@ A simple and modern browser-based screen recorder using JavaScript and the `Medi
 
 ## Screenshot
 
-![Screen Recorder App](images/recorder.png)
+![Screen Recorder App](recorder.png)
 
 
 ## 🧪 Demo
