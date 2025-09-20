@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="recorder.css" />
+  <title>Screen Recorder</title>
+</head>
+<body>
+  <div class="app">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h1>🎥 Screen Recorder</h1>
+      <div class="controls">
+        <button id="startBtn" class="btn btn-success">Start</button>
+        <button id="pauseBtn" class="btn" disabled>Pause</button>
+        <button id="stopBtn" class="btn btn-danger" disabled>Stop</button>
+        <button id="download" class="btn" disabled>Download</button>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="video-wrapper">
+        <video id="preview" autoplay muted controls></video>
+      </div>
+      <div class="status-bar" aria-live="polite">
+        Status: <span class="status-text idle">Press Start</span>
+      </div>
+
+    </main>
+
+  </div>
+
+  <script src="recorder.js" defer></script>
+</body>
+</html>
